@@ -65,7 +65,7 @@ h3 {
 	text-decoration: underline;
 }
 .system {
-	width: 30%;
+	width: 50%;
 	margin: auto;
 	padding: 10px;
 	border: 3px solid #e5e338;
@@ -85,5 +85,5 @@ figcaption a {
 }
 .soulscream {
 	color: red;
-	overflow-wrap: anywhere;
+	overflow-wrap: break-word;
 }
