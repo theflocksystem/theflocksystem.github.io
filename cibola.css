@@ -87,8 +87,3 @@ figcaption a {
 	color: red;
 	overflow-wrap: break-word;
 }
-@media screen and (min-height:1300px) {
-	.system {
-		width: 30%
-	}
-}
