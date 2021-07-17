@@ -1,0 +1,89 @@
+.sidenav {
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #a7d2cb;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  background-color: #a7d2cb;
+  color: #874c62;
+  display: block;
+}
+.sidenav a:hover {
+  background-color: #c98474;
+  color: #874c62;
+}
+.sidenav a.active {
+  background-color: #f2d388;
+}
+.main {
+  margin-left: 160px;
+  padding: 0px 10px;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+body {
+	background-color: #a7d2cb;
+}
+h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #c98474;
+	text-align: center;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.info {
+  margin: auto;
+  width: 70%;
+  padding: 10px;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #874c62;
+  text-align: center;
+}
+a {
+  color: #636b46;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #e7dfdd;
+	text-align: center;
+	text-decoration: underline;
+}
+.system {
+	width: 30%;
+	margin: auto;
+	padding: 10px;
+	border: 3px solid #f2d388;
+}
+li {
+	font-family: Arial, Helvetica, sans-serif;
+    color: #e7dfdd;
+}
+figcaption {
+  color: #874c62;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+}
+figcaption a {
+  color: #c98474;
+}
+.soulscream {
+	color: red;
+	overflow-wrap: anywhere;
+}

@@ -1,0 +1,89 @@
+.sidenav {
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  background-color: #ec576b;
+  color: #000000;
+  display: block;
+}
+.sidenav a:hover {
+  background-color: #4ec5c1;
+  color: #000000;
+}
+.sidenav a.active {
+  background-color: #e5e338;
+}
+.main {
+  margin-left: 160px;
+  padding: 0px 10px;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+body {
+	background-color: #ffffff;
+}
+h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #4ec5c1;
+	text-align: center;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.info {
+  margin: auto;
+  width: 70%;
+  padding: 10px;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000000;
+  text-align: center;
+}
+a {
+  color: #4717f6;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #e7dfdd;
+	text-align: center;
+	text-decoration: underline;
+}
+.system {
+	width: 30%;
+	margin: auto;
+	padding: 10px;
+	border: 3px solid #e5e338;
+}
+li {
+	font-family: Arial, Helvetica, sans-serif;
+    color: #e7dfdd;
+}
+figcaption {
+  color: #000000;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+}
+figcaption a {
+  color: #ec576b;
+}
+.soulscream {
+	color: red;
+	overflow-wrap: anywhere;
+}
