@@ -87,3 +87,8 @@ figcaption a {
 	color: red;
 	overflow-wrap: break-word;
 }
+details {
+ width: 50%;
+ margin: auto;
+ padding: 10px;
+}
