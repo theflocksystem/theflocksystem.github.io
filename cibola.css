@@ -94,6 +94,8 @@ details {
 }
 details > p {
 	background-color: #000000;
+	color: #FFFFFF;
+	border-radius: 5px;
 }
 .best {
 	color:rgb(33.41981478500206,33.41981478500206,255;
