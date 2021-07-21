@@ -89,17 +89,20 @@ figcaption a {
 }
 details {
  width: 50%;
- margin: auto;
- padding: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
-details > p {
+details > table {
 	background-color: #000000;
 	color: #FFFFFF;
 	border-radius: 5px;
+	font-weight: bold;
+	padding: 10px;
 }
-details > .best {
+.best {
 	color:rgb(33.41981478500206,33.41981478500206,255);
 		}
-details > .avg {
+.avg {
 	color:rgb(231.67795004721464,231.67795004721464,255);
 }
